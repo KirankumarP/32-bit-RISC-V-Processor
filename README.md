@@ -17,13 +17,15 @@ This project implements a basic 32-bit RISC-V Processor using Verilog HDL. The p
 
 ## Project Structure
 
+```text
+32-bit-RISC-V-Processor
 ├── alu_mem.v          # ALU and memory operations
 ├── control_unit.v     # Control signal generation
 ├── datapath_units.v   # Datapath components
 ├── riscv_top.v        # Top-level processor module
 ├── tb_riscv.v         # Testbench
-├── program.hex        # Program memory contents
-
+└── program.hex        # Program memory contents
+```
 ## Tools Used
 - Verilog HDL
 - ModelSim / Vivado / Xilinx ISE
