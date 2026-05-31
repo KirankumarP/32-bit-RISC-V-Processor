@@ -1,5 +1,8 @@
 # 32-bit RISC-V Processor
 
+## Project Objective
+The objective of this project is to design and implement a 32-bit single-cycle RISC-V processor using Verilog HDL. The processor executes basic RISC-V instructions through modules such as the Control Unit, Datapath, ALU, Register File, and Memory.
+
 ## Overview
 This project implements a basic 32-bit RISC-V Processor using Verilog HDL. The processor supports instruction fetch, decode, execution, memory access, and write-back operations through a datapath and control unit architecture.
 
