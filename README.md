@@ -53,6 +53,26 @@ Compile all Verilog files and run the testbench:
 
 <img src="Simulation_Result.jpeg" width="800">
 
+## Conclusion
+
+A 32-bit single-cycle RISC-V processor was successfully designed and implemented using Verilog HDL. The processor integrates key components such as the Control Unit, Datapath, ALU, Register File, and Memory modules. Simulation results verify the correct execution of instructions and demonstrate the functionality of the processor architecture.
+
+## Future Scope
+
+* Implement a pipelined RISC-V processor for improved performance.
+* Add support for additional RISC-V instruction sets.
+* Incorporate hazard detection and forwarding units.
+* Implement cache memory for faster memory access.
+* Extend the design to support interrupts and exceptions.
+* Perform FPGA implementation and hardware validation.
+
+## References
+
+1. RISC-V Instruction Set Manual.
+2. Verilog HDL Documentation.
+3. Computer Organization and Design – Patterson & Hennessy.
+4. GitHub for version control and project management.
+
 ```bash
 iverilog *.v -o riscv
 vvp riscv
