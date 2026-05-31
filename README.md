@@ -38,15 +38,15 @@ Compile all Verilog files and run the testbench:
 
 ## Processor Architecture
 
-![Architecture](architecture.png)
+<img src="architecture.jpeg" width="800">
 
 ## RTL Design
 
-![RTL Design](rtl.png)
+<img src="rtl.jpeg" width="800">
 
 ## Simulation Results
 
-![Results](Simulation_Result.png)
+<img src="Simulation_Result.jpeg" width="800">
 
 ```bash
 iverilog *.v -o riscv
