@@ -36,6 +36,19 @@ This project implements a basic 32-bit RISC-V Processor using Verilog HDL. The p
 ## Simulation
 Compile all Verilog files and run the testbench:
 
+## Processor Architecture
+
+![Architecture](architecture.png)
+
+## RTL Design
+
+![RTL Design](rtl.png)
+
+## Simulation Results
+
+![Results](Simulation_Result.png)
+
 ```bash
 iverilog *.v -o riscv
 vvp riscv
+
